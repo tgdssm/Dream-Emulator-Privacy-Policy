@@ -1,160 +1,428 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy – Dream Emulator</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            background: #f5f5f7;
-            color: #1d1d1f;
-            line-height: 1.7;
-        }
-        header {
-            background: #1d1d1f;
-            color: #fff;
-            padding: 48px 24px 40px;
-            text-align: center;
-        }
-        header h1 { font-size: 2rem; font-weight: 700; letter-spacing: -0.5px; }
-        header p  { margin-top: 8px; color: #a1a1a6; font-size: 0.95rem; }
-        main {
-            max-width: 720px;
-            margin: 48px auto;
-            padding: 0 24px 64px;
-        }
-        section { margin-bottom: 40px; }
-        h2 {
-            font-size: 1.15rem;
-            font-weight: 600;
-            margin-bottom: 12px;
-            color: #1d1d1f;
-        }
-        p, li { font-size: 0.97rem; color: #3a3a3c; }
-        ul { padding-left: 20px; }
-        ul li { margin-bottom: 6px; }
-        .highlight {
-            background: #fff;
-            border-left: 4px solid #0071e3;
-            border-radius: 8px;
-            padding: 16px 20px;
-            margin-bottom: 40px;
-        }
-        .highlight p { color: #1d1d1f; font-weight: 500; }
-        a { color: #0071e3; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-        footer {
-            text-align: center;
-            padding: 24px;
-            font-size: 0.85rem;
-            color: #a1a1a6;
-            border-top: 1px solid #d2d2d7;
-        }
-    </style>
-</head>
-<body>
-
-<header>
-    <h1>Dream Emulator</h1>
-    <p>Privacy Policy</p>
-</header>
-
-<main>
-
-    <div class="highlight">
-        <p>Dream Emulator does not collect, store, or share any personal data. Your privacy is fully protected.</p>
-    </div>
-
-    <section>
-        <h2>1. Overview</h2>
-        <p>
-            Dream Emulator ("the App") is a Game Boy emulator for iOS developed by Thalisson Gabriel.
-            This Privacy Policy explains what information the App accesses and how it is used.
-            By using the App, you agree to the practices described in this policy.
-        </p>
-    </section>
-
-    <section>
-        <h2>2. Information We Do Not Collect</h2>
-        <p>The App does not collect, transmit, or share any of the following:</p>
-        <ul>
-            <li>Personal identification information (name, email, phone number)</li>
-            <li>Location data</li>
-            <li>Camera or microphone data</li>
-            <li>Contacts or photos</li>
-            <li>Usage analytics or crash reports sent to third parties</li>
-            <li>Advertising identifiers</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>3. Data Stored Locally on Your Device</h2>
-        <p>The App stores the following data exclusively on your device and never transmits it externally:</p>
-        <ul>
-            <li><strong>Recent games list</strong> — saved in the app's local storage (UserDefaults) so you can quickly resume your games.</li>
-            <li><strong>Save states</strong> — game progress files saved in the app's Documents folder on your device.</li>
-            <li><strong>ROM files</strong> — game files you provide are copied to the app's Documents folder for local access.</li>
-        </ul>
-        <p style="margin-top:12px;">
-            All of this data remains entirely on your device. You can delete it at any time by removing the App.
-        </p>
-    </section>
-
-    <section>
-        <h2>4. ROM Files</h2>
-        <p>
-            Dream Emulator does not include, distribute, or provide any game ROM files.
-            Users are solely responsible for obtaining and using ROM files in compliance with
-            applicable copyright laws. The App only loads files provided by the user through
-            the iOS Files app or iTunes File Sharing.
-        </p>
-    </section>
-
-    <section>
-        <h2>5. Third-Party Services</h2>
-        <p>
-            The App does not integrate any third-party SDKs, analytics services, advertising networks,
-            or cloud storage services. No data is shared with any third party.
-        </p>
-    </section>
-
-    <section>
-        <h2>6. Children's Privacy</h2>
-        <p>
-            The App does not knowingly collect any information from children under the age of 13.
-            Since the App collects no personal data at all, it is safe for users of all ages.
-        </p>
-    </section>
-
-    <section>
-        <h2>7. Changes to This Policy</h2>
-        <p>
-            We may update this Privacy Policy from time to time. Any changes will be reflected on this page
-            with an updated effective date. Continued use of the App after changes constitutes acceptance
-            of the updated policy.
-        </p>
-    </section>
-
-    <section>
-        <h2>8. Contact</h2>
-        <p>
-            If you have any questions or concerns about this Privacy Policy, please contact us at:
-        </p>
-        <p style="margin-top:10px;">
-            <a href="mailto:thalissongabriel1999@gmail.com">thalissongabriel1999@gmail.com</a>
-        </p>
-    </section>
-
-    <p style="font-size:0.85rem; color:#a1a1a6;">Effective date: March 2026</p>
-
-</main>
-
-<footer>
-    &copy; 2026 Dream Emulator · Thalisson Gabriel ·
-    <a href="mailto:thalissongabriel1999@gmail.com">thalissongabriel1999@gmail.com</a>
-</footer>
-
-</body>
-</html>
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Privacy Policy – Dream Emulator</title>
++    <style>
++        :root {
++            --bg: #f5f5f7;
++            --card: #ffffff;
++            --text: #1d1d1f;
++            --muted: #6e6e73;
++            --accent: #0071e3;
++            --border: #d2d2d7;
++            --highlight-bg: #e8f4fd;
++            --highlight-border: #0071e3;
++        }
++ 
++        * { margin: 0; padding: 0; box-sizing: border-box; }
++ 
++        body {
++            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
++            background: var(--bg);
++            color: var(--text);
++            line-height: 1.7;
++        }
++ 
++        /* HEADER */
++        header {
++            background: linear-gradient(135deg, #1c1c1e 0%, #2c2c2e 100%);
++            color: #fff;
++            padding: 60px 24px 50px;
++            text-align: center;
++            position: relative;
++            overflow: hidden;
++        }
++        header::before {
++            content: '';
++            position: absolute;
++            top: -60px; left: 50%;
++            transform: translateX(-50%);
++            width: 300px; height: 300px;
++            background: radial-gradient(circle, rgba(0,113,227,0.15) 0%, transparent 70%);
++            pointer-events: none;
++        }
++        .app-icon {
++            width: 80px; height: 80px;
++            background: linear-gradient(145deg, #0071e3, #00a3ff);
++            border-radius: 20px;
++            margin: 0 auto 20px;
++            display: flex; align-items: center; justify-content: center;
++            font-size: 2.2rem;
++            box-shadow: 0 8px 32px rgba(0,113,227,0.4);
++        }
++        header h1 {
++            font-size: 2rem;
++            font-weight: 700;
++            letter-spacing: -0.5px;
++        }
++        header p {
++            margin-top: 8px;
++            color: #a1a1a6;
++            font-size: 0.95rem;
++        }
++ 
++        /* LANG SWITCHER */
++        .lang-switcher {
++            display: flex;
++            justify-content: center;
++            gap: 8px;
++            margin-top: 24px;
++        }
++        .lang-btn {
++            background: rgba(255,255,255,0.1);
++            border: 1px solid rgba(255,255,255,0.2);
++            color: #fff;
++            padding: 6px 18px;
++            border-radius: 20px;
++            font-size: 0.85rem;
++            cursor: pointer;
++            transition: all 0.2s;
++            font-family: inherit;
++        }
++        .lang-btn.active {
++            background: #0071e3;
++            border-color: #0071e3;
++        }
++        .lang-btn:hover:not(.active) {
++            background: rgba(255,255,255,0.18);
++        }
++ 
++        /* MAIN */
++        main {
++            max-width: 760px;
++            margin: 0 auto;
++            padding: 48px 24px 80px;
++        }
++ 
++        /* HIGHLIGHT BANNER */
++        .highlight {
++            background: var(--highlight-bg);
++            border-left: 4px solid var(--highlight-border);
++            border-radius: 12px;
++            padding: 20px 24px;
++            margin-bottom: 40px;
++            display: flex;
++            gap: 14px;
++            align-items: flex-start;
++        }
++        .highlight .icon { font-size: 1.4rem; flex-shrink: 0; margin-top: 2px; }
++        .highlight p { color: #1d1d1f; font-weight: 500; font-size: 0.97rem; }
++ 
++        /* CARDS */
++        .card {
++            background: var(--card);
++            border-radius: 16px;
++            padding: 28px;
++            margin-bottom: 16px;
++            box-shadow: 0 2px 12px rgba(0,0,0,0.06);
++            transition: box-shadow 0.2s;
++        }
++        .card:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
++        .card-header {
++            display: flex;
++            align-items: center;
++            gap: 12px;
++            margin-bottom: 14px;
++        }
++        .card-icon {
++            width: 38px; height: 38px;
++            border-radius: 10px;
++            display: flex; align-items: center; justify-content: center;
++            font-size: 1.1rem;
++            flex-shrink: 0;
++        }
++        .card-icon.blue   { background: #e8f4fd; }
++        .card-icon.green  { background: #e8faf0; }
++        .card-icon.yellow { background: #fef9e7; }
++        .card-icon.red    { background: #fdecea; }
++        .card-icon.purple { background: #f3eafd; }
++        .card-icon.gray   { background: #f2f2f7; }
++ 
++        h2 {
++            font-size: 1.05rem;
++            font-weight: 600;
++            color: var(--text);
++        }
++        p, li {
++            font-size: 0.95rem;
++            color: #3a3a3c;
++        }
++        ul {
++            padding-left: 0;
++            list-style: none;
++        }
++        ul li {
++            padding: 6px 0 6px 24px;
++            position: relative;
++            border-bottom: 1px solid #f2f2f7;
++        }
++        ul li:last-child { border-bottom: none; }
++        ul li::before {
++            content: '✓';
++            position: absolute;
++            left: 0;
++            color: #34c759;
++            font-weight: 700;
++        }
++        ul.cross li::before {
++            content: '✕';
++            color: #ff3b30;
++        }
++        a { color: var(--accent); text-decoration: none; }
++        a:hover { text-decoration: underline; }
++ 
++        .badge {
++            display: inline-block;
++            background: #f2f2f7;
++            color: #3a3a3c;
++            border-radius: 6px;
++            padding: 2px 8px;
++            font-size: 0.82rem;
++            font-family: monospace;
++            margin: 2px 2px 0 0;
++        }
++ 
++        /* EFFECTIVE DATE */
++        .effective {
++            text-align: center;
++            color: var(--muted);
++            font-size: 0.85rem;
++            margin-top: 40px;
++        }
++ 
++        /* FOOTER */
++        footer {
++            text-align: center;
++            padding: 28px 24px;
++            font-size: 0.85rem;
++            color: var(--muted);
++            border-top: 1px solid var(--border);
++        }
++        footer a { color: var(--muted); margin: 0 8px; }
++        footer a:hover { color: var(--accent); }
++ 
++        /* LANG CONTENT */
++        [data-lang] { display: none; }
++        [data-lang].visible { display: block; }
++    </style>
++</head>
++<body>
++ 
++<header>
++    <div class="app-icon">🎮</div>
++    <h1>Dream Emulator</h1>
++    <p data-lang="en" class="visible">Privacy Policy</p>
++    <p data-lang="pt">Política de Privacidade</p>
++    <div class="lang-switcher">
++        <button class="lang-btn active" onclick="setLang('en')">🇺🇸 English</button>
++        <button class="lang-btn" onclick="setLang('pt')">🇧🇷 Português</button>
++    </div>
++</header>
++ 
++<main>
++ 
++    <!-- ───── ENGLISH ───── -->
++    <div data-lang="en" class="visible">
++        <div class="highlight">
++            <div class="icon">🔒</div>
++            <p>Dream Emulator does not collect, store, or share any personal data. Everything stays on your device. Your privacy is fully protected.</p>
++        </div>
++ 
++        <div class="card">
++            <div class="card-header">
++                <div class="card-icon blue">📋</div>
++                <h2>Overview</h2>
++            </div>
++            <p>Dream Emulator is a Game Boy emulator for iOS developed by Thalisson Gabriel. This policy explains what the app accesses and how it is used. By using the app, you agree to the practices described here.</p>
++        </div>
++ 
++        <div class="card">
++            <div class="card-header">
++                <div class="card-icon red">🚫</div>
++                <h2>What We Do NOT Collect</h2>
++            </div>
++            <ul class="cross">
++                <li>Personal identification (name, email, phone number)</li>
++                <li>Location data</li>
++                <li>Camera or microphone access</li>
++                <li>Contacts or photos</li>
++                <li>Usage analytics or crash reports sent to third parties</li>
++                <li>Advertising identifiers</li>
++            </ul>
++        </div>
++ 
++        <div class="card">
++            <div class="card-header">
++                <div class="card-icon green">📱</div>
++                <h2>Data Stored Locally on Your Device</h2>
++            </div>
++            <p style="margin-bottom:14px;">The following data is stored exclusively on your device and never leaves it:</p>
++            <ul>
++                <li><strong>Recent games list</strong> — stored locally so you can quickly resume your games. <span class="badge">UserDefaults</span></li>
++                <li><strong>Save states</strong> — game progress files stored in the app's Documents folder. <span class="badge">Documents</span></li>
++                <li><strong>ROM files</strong> — game files you provide, copied to the app's Documents folder. <span class="badge">Documents</span></li>
++            </ul>
++            <p style="margin-top:14px; color:#6e6e73; font-size:0.9rem;">You can delete all data at any time by removing the app from your device.</p>
++        </div>
++ 
++        <div class="card">
++            <div class="card-header">
++                <div class="card-icon yellow">📦</div>
++                <h2>ROM Files</h2>
++            </div>
++            <p>Dream Emulator does not include, distribute, or provide any game ROM files. Users are solely responsible for obtaining ROM files in compliance with applicable copyright laws. The app only loads files provided by the user through the iOS Files app or iTunes File Sharing.</p>
++        </div>
++ 
++        <div class="card">
++            <div class="card-header">
++                <div class="card-icon purple">🔗</div>
++                <h2>Third-Party Services</h2>
++            </div>
++            <p>The app does not integrate any third-party SDKs, analytics platforms, advertising networks, or cloud services. No data is shared with any third party.</p>
++        </div>
++ 
++        <div class="card">
++            <div class="card-header">
++                <div class="card-icon blue">👶</div>
++                <h2>Children's Privacy</h2>
++            </div>
++            <p>The app does not knowingly collect any information from children under 13. Since no personal data is collected at all, it is safe for users of all ages.</p>
++        </div>
++ 
++        <div class="card">
++            <div class="card-header">
++                <div class="card-icon gray">📝</div>
++                <h2>Changes to This Policy</h2>
++            </div>
++            <p>We may update this policy from time to time. Changes will be reflected on this page with an updated effective date. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
++        </div>
++ 
++        <div class="card">
++            <div class="card-header">
++                <div class="card-icon green">✉️</div>
++                <h2>Contact</h2>
++            </div>
++            <p>Questions or concerns? Reach out at:</p>
++            <p style="margin-top:10px;"><a href="mailto:thalissongabriel1999@gmail.com">thalissongabriel1999@gmail.com</a></p>
++        </div>
++ 
++        <p class="effective">Effective date: March 2026</p>
++    </div>
++ 
++    <!-- ───── PORTUGUÊS ───── -->
++    <div data-lang="pt">
++        <div class="highlight">
++            <div class="icon">🔒</div>
++            <p>O Dream Emulator não coleta, armazena nem compartilha nenhum dado pessoal. Tudo fica no seu dispositivo. Sua privacidade está totalmente protegida.</p>
++        </div>
++ 
++        <div class="card">
++            <div class="card-header">
++                <div class="card-icon blue">📋</div>
++                <h2>Visão Geral</h2>
++            </div>
++            <p>O Dream Emulator é um emulador de Game Boy para iOS desenvolvido por Thalisson Gabriel. Esta política explica quais informações o app acessa e como são utilizadas. Ao usar o app, você concorda com as práticas descritas aqui.</p>
++        </div>
++ 
++        <div class="card">
++            <div class="card-header">
++                <div class="card-icon red">🚫</div>
++                <h2>O que NÃO coletamos</h2>
++            </div>
++            <ul class="cross">
++                <li>Identificação pessoal (nome, email, telefone)</li>
++                <li>Dados de localização</li>
++                <li>Acesso à câmera ou microfone</li>
++                <li>Contatos ou fotos</li>
++                <li>Análises de uso ou relatórios de erros enviados a terceiros</li>
++                <li>Identificadores de publicidade</li>
++            </ul>
++        </div>
++ 
++        <div class="card">
++            <div class="card-header">
++                <div class="card-icon green">📱</div>
++                <h2>Dados Armazenados Localmente</h2>
++            </div>
++            <p style="margin-bottom:14px;">Os seguintes dados são armazenados exclusivamente no seu dispositivo e nunca saem dele:</p>
++            <ul>
++                <li><strong>Lista de jogos recentes</strong> — salva localmente para retomar seus jogos rapidamente. <span class="badge">UserDefaults</span></li>
++                <li><strong>Save states</strong> — arquivos de progresso salvos na pasta Documentos do app. <span class="badge">Documents</span></li>
++                <li><strong>Arquivos ROM</strong> — arquivos de jogo fornecidos por você, copiados para a pasta Documentos. <span class="badge">Documents</span></li>
++            </ul>
++            <p style="margin-top:14px; color:#6e6e73; font-size:0.9rem;">Você pode apagar todos os dados a qualquer momento removendo o app do seu dispositivo.</p>
++        </div>
++ 
++        <div class="card">
++            <div class="card-header">
++                <div class="card-icon yellow">📦</div>
++                <h2>Arquivos ROM</h2>
++            </div>
++            <p>O Dream Emulator não inclui, distribui nem fornece nenhum arquivo de jogo (ROM). Os usuários são os únicos responsáveis por obter e utilizar ROMs em conformidade com as leis de direitos autorais aplicáveis. O app carrega apenas arquivos fornecidos pelo usuário via app Arquivos ou iTunes File Sharing.</p>
++        </div>
++ 
++        <div class="card">
++            <div class="card-header">
++                <div class="card-icon purple">🔗</div>
++                <h2>Serviços de Terceiros</h2>
++            </div>
++            <p>O app não integra nenhum SDK de terceiros, plataforma de análise, rede de publicidade ou serviço em nuvem. Nenhum dado é compartilhado com terceiros.</p>
++        </div>
++ 
++        <div class="card">
++            <div class="card-header">
++                <div class="card-icon blue">👶</div>
++                <h2>Privacidade de Crianças</h2>
++            </div>
++            <p>O app não coleta intencionalmente nenhuma informação de crianças menores de 13 anos. Como nenhum dado pessoal é coletado, é seguro para usuários de todas as idades.</p>
++        </div>
++ 
++        <div class="card">
++            <div class="card-header">
++                <div class="card-icon gray">📝</div>
++                <h2>Alterações nesta Política</h2>
++            </div>
++            <p>Esta política pode ser atualizada periodicamente. As alterações serão refletidas nesta página com uma nova data de vigência. O uso contínuo do app após as alterações constitui aceitação da política atualizada.</p>
++        </div>
++ 
++        <div class="card">
++            <div class="card-header">
++                <div class="card-icon green">✉️</div>
++                <h2>Contato</h2>
++            </div>
++            <p>Dúvidas ou sugestões? Entre em contato:</p>
++            <p style="margin-top:10px;"><a href="mailto:thalissongabriel1999@gmail.com">thalissongabriel1999@gmail.com</a></p>
++        </div>
++ 
++        <p class="effective">Data de vigência: Março de 2026</p>
++    </div>
++ 
++</main>
++ 
++<footer>
++    &copy; 2026 Dream Emulator &nbsp;·&nbsp; Thalisson Gabriel
++    <br style="display:none" class="mobile-br">
++    <a href="mailto:thalissongabriel1999@gmail.com">thalissongabriel1999@gmail.com</a> &nbsp;·&nbsp;
++    <a href="https://tgdssm.github.io/Dream-Emulator-Support-The-Delevoper/">❤️ Support the Developer</a>
++</footer>
++ 
++<script>
++    function setLang(lang) {
++        document.querySelectorAll('[data-lang]').forEach(el => {
++            el.classList.toggle('visible', el.dataset.lang === lang);
++        });
++        document.querySelectorAll('.lang-btn').forEach(btn => {
++            btn.classList.toggle('active', btn.textContent.toLowerCase().includes(lang === 'en' ? 'english' : 'portugu'));
++        });
++        document.documentElement.lang = lang;
++    }
++ 
++    // Auto-detect browser language
++    const browserLang = navigator.language || navigator.userLanguage;
++    if (browserLang.startsWith('pt')) setLang('pt');
++</script>
++ 
++</body>
++</html>
